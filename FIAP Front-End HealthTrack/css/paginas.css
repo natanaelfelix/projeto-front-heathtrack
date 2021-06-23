@@ -1,0 +1,296 @@
+
+@media only screen and (max-width: 2100px) {
+	body {
+		background-image: url('fundo1.jpg');
+		background-size: 2100px;
+		background-repeat: no repeat;
+
+		text-align: center;
+
+	}
+}
+
+@media only screen(min-width: 768px){
+	body {
+		background-image: url('fundo1.jpg');
+		text-align: center;
+
+	}
+}
+
+
+body{
+	padding-top: 10%;
+}
+
+
+}
+#perfil {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	text-align: left;
+
+}
+
+#esquerda{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 100%;
+	height: 500px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+#esquerda1{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 100%;
+	height: 350px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+#esquerda2{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 100%;
+	height: 500px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.linha{
+	line-height: 3.1em;
+}
+.linha2{
+	line-height: 2.1em;
+}
+
+.linha3{
+	line-height: 4.1em;
+}
+#esquerda3{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 100%;
+	height: 460px;
+	padding-left: 20px;
+	padding-top: 60px;
+	padding-right: 20px;
+}
+
+#esquerda4{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 100%;
+	height: 500px;
+	padding-left: 20px;
+	padding-top: 60px;
+	padding-right: 20px;
+}
+
+#esquerdanovo{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 30%;
+	height: 500px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+
+.alinhar{
+	padding-bottom: 20px;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+aside nav h1{
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+}
+
+#barra{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 75%;
+	height: 350px;
+	
+}
+
+#barra ul a{
+	font-family: sans-serif;
+	font-size: 1em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: white;
+}
+
+#barra ul a:hover{
+	color: #87ceff;
+}
+
+
+
+
+body.home #navegacao a#home,
+body.consumo #navegacao a#consumo,
+body.peso #navegacao a#peso,
+body.fisica #navegacao a#fisica,
+body.altura #navegacao a#altura
+{
+	color: #fff;
+	background: #87cefa;
+	cursor: text;
+}
+
+
+
+
+footer#direitos {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	position: fixed;
+}
+
+
+p{
+	color: #fff;
+	font-family: sans-serif;
+	text-align: left;
+}
+
+h1{
+	color: #fff;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+
+
+.justificar{
+
+	text-align: justify;
+	font-size: 90%;
+}
+
+
+h2{
+	color: #fff;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+form{
+	text-align: -webkit-center;
+	color: white;
+}
+
+form.novo{
+	text-align: -webkit-left;
+}
+
+#barra2{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 75%;
+	height: 500px;
+	
+}
+
+#barra2 ul a{
+	font-family: sans-serif;
+	font-size: 1em;
+	display: block;
+	padding: 1.2em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: white;
+}
+
+#barra2 ul a:hover{
+	color: #87ceff;
+}
+
+#barra3{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 75%;
+	height: 460px;
+	
+}
+
+#barra3 ul a{
+	font-family: sans-serif;
+	font-size: 1em;
+	display: block;
+	padding: 1.0em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: white;
+}
+
+#barra3 ul a:hover{
+	color: #87ceff;
+}
+
+#barra4{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 75%;
+	height: 500px;
+	
+}
+
+#barra4 ul a{
+	font-family: sans-serif;
+	font-size: 1em;
+	display: block;
+	padding: 1.2em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: white;
+}
+
+#barra4 ul a:hover{
+	color: #87ceff;
+}
+
+
+
+#barra5{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	width: 30%;
+	height: 500px;
+	
+}
+
+#barra5 ul a{
+	font-family: sans-serif;
+	font-size: 1em;
+	display: block;
+	padding: 1.2em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: white;
+}
+
+#barra5 ul a:hover{

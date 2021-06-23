@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HealthTrack - Cadastro de Medidas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name = "description" content="Site especializado em monitoramento da saúde">
+	<link rel="stylesheet" href="css\paginas.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+</head>
+<body class="peso">
+
+<div class="row align-items-cente" style="padding-left: 100px;">
+	<div class="col colunas">
+      <section id="esquerda2">
+			<h2 class="consumo">Minhas medidas:</h2>
+			<ul class="list-group ">
+			  <li class="list-group-item" id="peso1">Peso 68 Kg <br> Inicio de nova aplicação da dieta <br> Dia: 31/05/21 <br>
+			  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Ginastica"></li>
+			  <li class="list-group-item" id="peso2">Peso 65 Kg <br> Seguindo plano alimentar da nutricionista <br> Dia: 01/05/21 <br>
+			  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="peso2"></li>
+			  <li class="list-group-item" id="peso3">Peso 70 Kg <br> Festas de ano novo chines <br> Dia: 22/04/21 <br><input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="peso3"></li>
+			</ul>
+			<button style="margin-top: 20px;" type="submit" class="btn btn-primary">Deletar</button>
+	  </section>
+    </div>
+	    <div class="col colunas linha">
+			<section id="esquerda2">
+				<h2>Cadastrar nova medida:</h2>
+				<form class="ordenar_menu">
+					  <div class="form-row">
+					    <div class="form-group col-md-8">
+					      <label>Data</label>
+					      <input type="date" class="form-control" placeholder="31/04/06">
+					    </div>
+					    <div class="form-group col-md-8">
+					      <label>Medida(Peso)</label>
+					      <input type="number"class="form-control" placeholder="60Kg">
+					    </div>
+					  </div>
+					  <div class="form-group col-md-8">
+					    <label for="exampleFormControlTextarea1">Observações:</label>
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+					  <div class="form-group">
+					    <div class="form-check">
+					      </label>
+					    </div>
+					  </div>
+					  <button style="margin-top: 20px" type="submit" class="btn btn-primary">Cadastrar</button>
+					</form>
+			</section>
+	</div>
+	    <div class="col colunas">
+		    <main class="container-fluid text-light">
+				<nav class="row-cols-lg-auto" id="barra2">
+					<h1>Menu</h1>
+					<ul id="navegacao" style="padding-left: 0px;">
+						<li><a id="home" href="inicial.html">Home</a></li>
+						<li><a id="consumo" href="consumo.html">Cadastar Consumo</a></li> 
+						<li><a id="peso" href="peso.html">Cadastar Peso</a></li>
+						<li><a id="fisica" href="fisica.html">Cadastar Atividade Física</a></li>
+						<li><a id="altura" href="altura.html">Cadastrar Altura</a></li>
+						<li><a id="sair" href="index.html">Sair</a></li>
+					</ul>
+				</nav>
+			</main>
+	    </div>
+	</div>						
+
+	
+
+<footer id="direitos">
+			<div>Copyright &copy; HealthTrack - Todos os direitos reservados</div>
+</footer>
+</body>
+
+</html>
+

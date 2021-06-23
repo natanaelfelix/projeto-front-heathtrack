@@ -1,0 +1,64 @@
+
+@media only screen and (max-width: 2100px) {
+	body {
+		background-image: url('fundo1.jpg');
+		background-size: 2100px;
+		background-repeat: no repeat;
+		text-align: center;
+
+	}
+}
+
+@media only screen(min-width: 768px){
+
+	body {
+		background-image: url('fundo1.jpg');
+		text-align: center;
+
+	}
+}
+
+header{
+	text-align: center;
+	
+}
+
+header > #img_topo{
+	max-width:200px;
+    max-height:150px;
+}
+
+header h1{
+	color: white;
+	font-family: sans-serif;
+}
+
+form button{
+	 
+	height: 100%;
+	width: 100%;
+}
+
+
+footer#direitos {
+	bottom: 0;
+	left: 0;
+	height: 10%;
+	width: 100%;
+	color: white;
+	position: fixed;
+}
+main {
+	max-width: 30%;
+
+}
+
+main form{
+	padding: 10%;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+}
+
+.ladoalado{
+	display: inline-block;
+}
